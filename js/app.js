@@ -83,7 +83,7 @@ for (let i = 0; i < attempts; i++){
 
 let whatCountriesHaveiVisited = prompt("Which Countries Have I Visited?");
 
-let listOfCountries =
+
 
 alert("Thank you for playing " + username + "!");
 
