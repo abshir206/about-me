@@ -59,5 +59,31 @@ if(doIHaveAnyChildren === 'no' || doIHaveAnyChildren === 'n') {
 } else {
   //console.log('Please answer with yes or no');
 }
-alert("No i do not have any children")
+alert("No i do not have any children");
+
+let guessANumber = prompt ("Guess a number between 1-10");
+
+let attempts = 4;
+for (let i = 0; i < attempts; i++){ 
+  if (guessANumber < 5){ 
+    alert("Too low");
+    guessANumber = prompt ("Guess a number between 1-10");
+  }
+  if (guessANumber > 5){
+    alert("Too high")
+    guessANumber = prompt ("Guess a number between 1-10");
+  }
+  if (guessANumber == 5){
+    alert("Correct!") 
+    break;
+  }
+ 
+}
+
+
+let whatCountriesHaveiVisited = prompt("Which Countries Have I Visited?");
+
+let listOfCountries =
+
 alert("Thank you for playing " + username + "!");
+
